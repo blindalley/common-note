@@ -1,0 +1,7 @@
+java中spi（service provider interface）
+
+在meta/service 中建一个需要实现的类的同名文件
+里面放上实现这个接口的类的class路径
+用serviceLoader来实现服务的查找
+
+https://zhuanlan.zhihu.com/p/28909673
