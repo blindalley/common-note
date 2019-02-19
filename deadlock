@@ -1,0 +1,6 @@
+怎么查死锁问题  mysql
+
+首先需要从mysql那里获取死锁的log
+一般情况下使用
+“show engine innodb status; ”
+能看到最后一次的死锁记录
