@@ -1,3 +1,7 @@
 spring cloud
 doubbo
 service mesh
+
+
+
+服务降级：ali开源 sentinel
