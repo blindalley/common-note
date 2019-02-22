@@ -1,2 +1,6 @@
 数据库的原子性，一致性如何实现？
 https://www.zhihu.com/question/30272728
+
+
+redo undo checkPoint
+https://www.letiantian.me/2014-06-18-db-undo-redo-checkpoint/
