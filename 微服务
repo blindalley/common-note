@@ -2,6 +2,9 @@ spring cloud
 doubbo
 service mesh
 
+分布式系统基础设施：
+服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控
+
 
 
 服务降级：ali开源 sentinel
