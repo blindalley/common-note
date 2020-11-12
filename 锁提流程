@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T11:27:21.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="8F4R99jvaXGZA0Fq6oqY" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T11:35:25.740Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="u6KkGAmC2NVjnj84rvyq" version="13.9.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,22 +50,25 @@
           <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JTYlzW8FJ-poDHWC8QN-3" value="Command-Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="80" width="100" height="520" as="geometry" />
+          <mxGeometry x="750" y="80" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="1JTYlzW8FJ-poDHWC8QN-24" value="command落库&lt;br&gt;后面走mq下发指令到边端" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1JTYlzW8FJ-poDHWC8QN-3">
           <mxGeometry x="45" y="260" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1JTYlzW8FJ-poDHWC8QN-3">
+          <mxGeometry x="45" y="510" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-45" value="消费消息发送请求到iot" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1JTYlzW8FJ-poDHWC8QN-3" target="1JTYlzW8FJ-poDHWC8QN-38">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="520" as="sourcePoint" />
+            <mxPoint x="110" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1JTYlzW8FJ-poDHWC8QN-5" value="black-hole" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="1JTYlzW8FJ-poDHWC8QN-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1JTYlzW8FJ-poDHWC8QN-5">
           <mxGeometry x="45" y="145" width="10" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1JTYlzW8FJ-poDHWC8QN-11" value="GIFT" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="1JTYlzW8FJ-poDHWC8QN-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1JTYlzW8FJ-poDHWC8QN-11">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="1JTYlzW8FJ-poDHWC8QN-15" value="查询车牌号状态" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="1JTYlzW8FJ-poDHWC8QN-14" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
@@ -110,6 +113,34 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="510" as="sourcePoint" />
             <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-38" value="IOT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1JTYlzW8FJ-poDHWC8QN-38">
+          <mxGeometry x="45" y="510" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-39" value="车载设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="80" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1JTYlzW8FJ-poDHWC8QN-39">
+          <mxGeometry x="45" y="520" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-41" value="发送指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="1JTYlzW8FJ-poDHWC8QN-40" parent="1" source="1JTYlzW8FJ-poDHWC8QN-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-42" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="1JTYlzW8FJ-poDHWC8QN-40" parent="1" target="1JTYlzW8FJ-poDHWC8QN-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JTYlzW8FJ-poDHWC8QN-46" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="1JTYlzW8FJ-poDHWC8QN-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="680" as="sourcePoint" />
+            <mxPoint x="820" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
