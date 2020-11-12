@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T08:05:33.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="M4UVlwPzeKTcy0oF1OjD" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T08:26:40.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="CzLNw3B490oDN8I8EQhq" version="13.9.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2292" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="80" width="100" height="1130" as="geometry" />
+          <mxGeometry x="150" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="470" as="geometry" />
@@ -22,7 +22,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="command-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="80" width="100" height="1142" as="geometry" />
+          <mxGeometry x="620" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="hXtjApBgq2o27jsszl3d-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="210" width="10" height="190" as="geometry" />
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hXtjApBgq2o27jsszl3d-8" value="RLP-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="80" width="100" height="1130" as="geometry" />
+          <mxGeometry x="350" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="hXtjApBgq2o27jsszl3d-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="hXtjApBgq2o27jsszl3d-8">
           <mxGeometry x="45" y="70" width="10" height="470" as="geometry" />
@@ -139,7 +139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hXtjApBgq2o27jsszl3d-36" value="iot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="980" y="80" width="100" height="1077" as="geometry" />
+          <mxGeometry x="980" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="hXtjApBgq2o27jsszl3d-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="hXtjApBgq2o27jsszl3d-36">
           <mxGeometry x="45" y="924" width="10" height="80" as="geometry" />
@@ -153,6 +153,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="1080" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtjApBgq2o27jsszl3d-41" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
