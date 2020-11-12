@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T08:26:40.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="CzLNw3B490oDN8I8EQhq" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T08:28:02.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="aVXmGarNGvy5FW5zoBOs" version="13.9.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2292" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
       <root>
@@ -154,8 +154,21 @@
             <mxPoint x="730" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-41" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-41" value="设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1240" y="80" width="100" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtjApBgq2o27jsszl3d-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="hXtjApBgq2o27jsszl3d-41">
+          <mxGeometry x="45" y="930" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hXtjApBgq2o27jsszl3d-43" value="下发指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="hXtjApBgq2o27jsszl3d-42" parent="1" source="hXtjApBgq2o27jsszl3d-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="1010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXtjApBgq2o27jsszl3d-44" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="hXtjApBgq2o27jsszl3d-42" parent="1" target="hXtjApBgq2o27jsszl3d-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="1086" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
