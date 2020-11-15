@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T15:52:32.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="04C4i8NPdk5UGalaPDoP" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-15T15:56:36.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="zMB-TliTKHFRJiltbdH8" version="13.9.3" type="github">
   <diagram id="NA2N6H48PbT6UavmwvX_" name="第 1 页">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,12 @@
         </mxCell>
         <mxCell id="RGurJtMD6xsGXBVJXwgK-54" value="大数据平台" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="710" y="300" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RGurJtMD6xsGXBVJXwgK-56" value="IOT/边端" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="290" y="780" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGurJtMD6xsGXBVJXwgK-57" value="CSI/对接方" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="700" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
