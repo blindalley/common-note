@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T08:28:02.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="aVXmGarNGvy5FW5zoBOs" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T02:36:07.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="wJ94Q7iyf7FrWRXuj39g" version="13.9.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2292" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
+    <mxGraphModel dx="2292" dy="1178" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#9AC7BF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,13 +10,13 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-10" value="" style="endArrow=classic;html=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" target="hXtjApBgq2o27jsszl3d-9">
+        <mxCell id="hXtjApBgq2o27jsszl3d-10" value="" style="endArrow=classic;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="hXtjApBgq2o27jsszl3d-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="90" as="sourcePoint" />
             <mxPoint x="150" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-11" value="转发到“/v1/report/create”" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hXtjApBgq2o27jsszl3d-10">
+        <mxCell id="hXtjApBgq2o27jsszl3d-11" value="转发到“/v1/report/create”" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="hXtjApBgq2o27jsszl3d-10" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-10" as="offset" />
           </mxGeometry>
@@ -24,10 +24,10 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="command-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="210" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-25" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;1，校验传参,补充对应值,生成commandVo&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;2，优先级类型,commandId生成message&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;3，commandVO状态设置为发送前 before_sent&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;4，插入t_command&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;pingfang sc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;5&lt;/span&gt;，&lt;/span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;根据优先级及topic&lt;/font&gt;&lt;font face=&quot;pingfang sc&quot;&gt;发送消息到&lt;/font&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-stretch: normal ; line-height: normal&quot;&gt;mq&lt;/span&gt;&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.971;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="hXtjApBgq2o27jsszl3d-21" parent="3nuBFxr9cyL0pnOWT2aG-5" source="hXtjApBgq2o27jsszl3d-21">
+        <mxCell id="hXtjApBgq2o27jsszl3d-25" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;1，校验传参,补充对应值,生成commandVo&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;2，优先级类型,commandId生成message&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;3，commandVO状态设置为发送前 before_sent&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;4，插入t_command&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;pingfang sc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;5&lt;/span&gt;，&lt;/span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;根据优先级及topic&lt;/font&gt;&lt;font face=&quot;pingfang sc&quot;&gt;发送消息到&lt;/font&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-stretch: normal ; line-height: normal&quot;&gt;mq&lt;/span&gt;&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.971;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" source="hXtjApBgq2o27jsszl3d-21" target="hXtjApBgq2o27jsszl3d-21" edge="1">
           <mxGeometry x="0.0569" relative="1" as="geometry">
             <mxPoint x="70" y="255" as="sourcePoint" />
             <Array as="points">
@@ -39,13 +39,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="590" width="10" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="653" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-33" value="拉取msg,交给handler执行" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-33" value="拉取msg,交给handler执行" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="610" as="sourcePoint" />
             <Array as="points">
@@ -55,10 +55,10 @@
             <mxPoint x="50" y="677" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="794" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-35" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;1,根据commandId从mysql/redis拿指令内容&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;2,从缓存中拿到重试次数（retrytime）&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;3,如果command的状态是before_sent， 则选择发送&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;6,更新t_command状态为sent， 同时更新缓存&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;7,&lt;/span&gt;再次发送一条延时消息&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="hXtjApBgq2o27jsszl3d-31" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-35" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;1,根据commandId从mysql/redis拿指令内容&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;2,从缓存中拿到重试次数（retrytime）&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;3,如果command的状态是before_sent， 则选择发送&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;6,更新t_command状态为sent， 同时更新缓存&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;7,&lt;/span&gt;再次发送一条延时消息&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" target="hXtjApBgq2o27jsszl3d-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="774" as="sourcePoint" />
             <Array as="points">
@@ -67,37 +67,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-3" value="CSI或其他Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-3" value="CSI或其他Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="hXtjApBgq2o27jsszl3d-3">
+        <mxCell id="hXtjApBgq2o27jsszl3d-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="hXtjApBgq2o27jsszl3d-3" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-5" value="" style="endArrow=classic;html=1;" edge="1" parent="hXtjApBgq2o27jsszl3d-3" target="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-5" value="" style="endArrow=classic;html=1;" parent="hXtjApBgq2o27jsszl3d-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="80" as="sourcePoint" />
             <mxPoint x="160" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-6" value="发送请求" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hXtjApBgq2o27jsszl3d-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-6" value="发送请求" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="hXtjApBgq2o27jsszl3d-5" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.257;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="hXtjApBgq2o27jsszl3d-3" source="3nuBFxr9cyL0pnOWT2aG-2">
+        <mxCell id="hXtjApBgq2o27jsszl3d-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.257;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="hXtjApBgq2o27jsszl3d-3" source="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="540" as="sourcePoint" />
             <mxPoint x="50" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-8" value="RLP-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-8" value="RLP-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="hXtjApBgq2o27jsszl3d-8">
+        <mxCell id="hXtjApBgq2o27jsszl3d-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="hXtjApBgq2o27jsszl3d-8" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="hXtjApBgq2o27jsszl3d-8">
+        <mxCell id="hXtjApBgq2o27jsszl3d-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="hXtjApBgq2o27jsszl3d-8" vertex="1">
           <mxGeometry x="45" y="170" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-15" value="1,校验&lt;br&gt;2,插入recording_record&lt;br&gt;3,更新record_num" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="hXtjApBgq2o27jsszl3d-14" parent="hXtjApBgq2o27jsszl3d-8">
+        <mxCell id="hXtjApBgq2o27jsszl3d-15" value="1,校验&lt;br&gt;2,插入recording_record&lt;br&gt;3,更新record_num" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="hXtjApBgq2o27jsszl3d-8" target="hXtjApBgq2o27jsszl3d-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="110" as="sourcePoint" />
             <Array as="points">
@@ -105,17 +105,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-22" value="4,“v1/command/send”,创建指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="hXtjApBgq2o27jsszl3d-21" parent="1" source="hXtjApBgq2o27jsszl3d-8">
+        <mxCell id="hXtjApBgq2o27jsszl3d-22" value="4,“v1/command/send”,创建指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="hXtjApBgq2o27jsszl3d-8" target="hXtjApBgq2o27jsszl3d-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="475" y="290" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-23" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="hXtjApBgq2o27jsszl3d-21" parent="1" target="hXtjApBgq2o27jsszl3d-8">
+        <mxCell id="hXtjApBgq2o27jsszl3d-23" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="hXtjApBgq2o27jsszl3d-21" target="hXtjApBgq2o27jsszl3d-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="475" y="366" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-26" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.971;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-26" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.971;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.1192" relative="1" as="geometry">
             <mxPoint x="409.99999999999994" y="490" as="sourcePoint" />
             <Array as="points">
@@ -127,45 +127,45 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-28" value="更新recording_record&lt;br&gt;记录commandId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hXtjApBgq2o27jsszl3d-26">
+        <mxCell id="hXtjApBgq2o27jsszl3d-28" value="更新recording_record&lt;br&gt;记录commandId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXtjApBgq2o27jsszl3d-26" vertex="1" connectable="0">
           <mxGeometry x="-0.0119" relative="1" as="geometry">
             <mxPoint x="19.939999999999998" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.957;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hXtjApBgq2o27jsszl3d-9" target="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.957;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hXtjApBgq2o27jsszl3d-9" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="600" as="sourcePoint" />
             <mxPoint x="260" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-36" value="iot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-36" value="iot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="hXtjApBgq2o27jsszl3d-36">
+        <mxCell id="hXtjApBgq2o27jsszl3d-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="hXtjApBgq2o27jsszl3d-36" vertex="1">
           <mxGeometry x="45" y="924" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-39" value="http调用iot" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="hXtjApBgq2o27jsszl3d-38" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-39" value="http调用iot" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="hXtjApBgq2o27jsszl3d-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="852" y="1004" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-40" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="hXtjApBgq2o27jsszl3d-38" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="hXtjApBgq2o27jsszl3d-40" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="hXtjApBgq2o27jsszl3d-38" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-41" value="设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="hXtjApBgq2o27jsszl3d-41" value="设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1240" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="hXtjApBgq2o27jsszl3d-41">
+        <mxCell id="hXtjApBgq2o27jsszl3d-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="hXtjApBgq2o27jsszl3d-41" vertex="1">
           <mxGeometry x="45" y="930" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-43" value="下发指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="hXtjApBgq2o27jsszl3d-42" parent="1" source="hXtjApBgq2o27jsszl3d-36">
+        <mxCell id="hXtjApBgq2o27jsszl3d-43" value="下发指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="hXtjApBgq2o27jsszl3d-36" target="hXtjApBgq2o27jsszl3d-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1230" y="1010" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXtjApBgq2o27jsszl3d-44" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="hXtjApBgq2o27jsszl3d-42" parent="1" target="hXtjApBgq2o27jsszl3d-36">
+        <mxCell id="hXtjApBgq2o27jsszl3d-44" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="hXtjApBgq2o27jsszl3d-42" target="hXtjApBgq2o27jsszl3d-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1230" y="1086" as="targetPoint" />
           </mxGeometry>
