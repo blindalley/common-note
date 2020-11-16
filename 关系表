@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T16:18:16.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" version="13.9.3" etag="p5lQs6tOiy997y-evojW" type="github"><diagram id="kZ0K3xsiLCzLDIAfHwAa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-16T05:44:28.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="etvX6SUBAAx-rn_MBYHD" version="13.9.3" type="github">
+  <diagram id="kZ0K3xsiLCzLDIAfHwAa" name="第 1 页">
+    <mxGraphModel dx="1351" dy="841" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;gradientDirection=south;gradientColor=#171717;" vertex="1" parent="1">
+          <mxGeometry x="44" y="84" width="1276" height="1197" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-2" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="370" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-3" value="RLP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="803" width="390" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="884" y="167" width="383" height="616" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-7" value="command" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="501" y="815" width="93" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-8" value="black-hole" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="190" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-9" value="录锁提主要关系实体" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-13" value="t_command&#xa;指令表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="521" y="858" width="300" height="330" as="geometry">
+            <mxRectangle x="520" y="230" width="110" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-14" value="`command_id` &#39;命令id&#39;,&#xa;  `command_type`&#39;指令:见CommandType对象&#39;,&#xa;  `device_id` ‘设备ID&#39;,&#xa;  `start_time` &#39;提取开始时间&#39;,&#xa;  `duration` &#39;时长(秒)，如果是时间点，则时长为0&#39;,&#xa;  `status` &#39;指令状态:见CommandStatus对象&#39;,&#xa;  `complete_time` &#39;指令结束时间&#39;,&#xa;  `create_time` &#39;创建时间&#39;,&#xa;  `update_time` &#39;修改时间&#39;,&#xa;  `extra` &#39;指令额外信息,json&#39;,&#xa;  `file_num` &#39;文件数量&#39;,&#xa;  `retry_times`&#39;指令重试次数&#39;,&#xa;  `app_id` &#39;指令接收端&#39;,&#xa;  `call_back_id`&#39;指令回调id&#39;,&#xa;  `call_back_url` &#39;指令回调的url&#39;,&#xa;  `priority`  &#39;指令优先级，1:normal,2:priority,3:critical&#39;,&#xa;  `timeout`  &#39;指令超时时间，单位秒&#39;&#xa;  `retry_interval`  &#39;指令重试间隔，单位秒&#39;," style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xT65lx9wVlZUGdy9jObJ-13">
+          <mxGeometry y="30" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-20" value="Recording_record&#xa;录制记录表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="214" width="240" height="220" as="geometry">
+            <mxRectangle x="160" y="230" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-21" value="`source_id`  &#39;业务方来源&#39;,&#xa;`unique_key` &#39;录制，结束录制配对唯一键&#39;,&#xa;`device_id`  &#39;设备id&#39;,&#xa;`plate_number` &#39;车牌号&#39;,&#xa;`start_time`  &#39;期望录制开始时间&#39;,&#xa;`end_time` ‘期望录制结束时间&#39;,&#xa;`create_time` &#39;创建时间&#39;,&#xa;`update_time` &#39;更新时间&#39;,&#xa;`record_type`&#39;录制类型,&#39;,&#xa;`video_type`  &#39;视频类型1:车内，2: 车外&#39;,&#xa;`command_id`  &#39;指令id&#39;,&#xa;`record_id`  &#39;录制记录Id&#39;," style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xT65lx9wVlZUGdy9jObJ-20">
+          <mxGeometry y="30" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-25" value="video_file&#xa;视频文件索引" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="942" y="510" width="273" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-26" value="`resource_id` &#39;资源id，生成的主键&#39;,&#xa;  `cmd_id`  &#39;指令id,&#xa;  `file_type` &#39;1：前置视频 2：音频，4：后置视频&#39;,&#xa;  `resource_url` &#39;gift url后缀&#39;,&#xa;  `device_id` &#39;设备号&#39;,&#xa;  `file_size` ‘文件大小&#39;,&#xa;  `start_time` &#39;视频开始时间&#39;,&#xa;  `end_time`&#39;视频结束时间&#39;,&#xa;  `product_id` &#39;产品线&#39;,&#xa;  `md5` &#39;文件MD5&#39;,&#xa;  `cipher_version`  &#39;文件加密版本&#39;,&#xa;  `create_time`&#39;记录创建时间&#39;,&#xa;  `update_time` &#39;修改时间&#39;," style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xT65lx9wVlZUGdy9jObJ-25">
+          <mxGeometry y="30" width="273" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-29" value="pickup_record录制记录表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="157" y="455.5" width="240" height="261" as="geometry">
+            <mxRectangle x="160" y="230" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-30" value="`source_id`  &#39;业务方来源&#39;,&#xa;`unique_key` &#39;录制，结束录制配对唯一键&#39;,&#xa;`device_id`  &#39;设备id&#39;,&#xa;`plate_number` &#39;车牌号&#39;,&#xa;`start_time`  &#39;期望录制开始时间&#39;,&#xa;`end_time` ‘期望录制结束时间&#39;,&#xa;`create_time` &#39;创建时间&#39;,&#xa;`update_time` &#39;更新时间&#39;,&#xa;`record_type`&#39;录制类型,&#39;,&#xa;`video_type`  &#39;视频类型1:车内，2: 车外&#39;,&#xa;`command_id`  &#39;指令id&#39;,&#xa;`record_id`  &#39;录制记录Id&#39;," style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xT65lx9wVlZUGdy9jObJ-29">
+          <mxGeometry y="30" width="240" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-31" value="file_detail&#xa;文件详情" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="944" y="210" width="256" height="277" as="geometry" />
+        </mxCell>
+        <mxCell id="xT65lx9wVlZUGdy9jObJ-32" value="`device_id` &#39;设备id&#39;,&#xa;  `command_id` ‘指令id&#39;,&#xa;  `file_type` &#39;文件类型&#39;,&#xa;  `resource_key`  &#39;设备id&#39;,&#xa;  `ns`  &#39;存储区域&#39;,&#xa;  `url` &#39;下载地址&#39;,&#xa;  `save_region` &#39;0.临时23天，1.永久&#39;,&#xa;  `start_time` &#39;开始时间&#39;,&#xa;  `end_time`  &#39;结束时间&#39;,&#xa;  `extra`  &#39;附加信息&#39;,&#xa;  `delete_date`  &#39;过期时间&#39;,&#xa;  `is_deleted`  &#39;0.否，1.是&#39;,&#xa;  `create_time` &#39;创建时间&#39;,&#xa;  `update_time` &#39;修改时间&#39;,&#xa;  `start_timestamp` &#39;开始时间戳&#39;,&#xa;  `end_timestamp`&#39;结束时间戳&#39;," style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xT65lx9wVlZUGdy9jObJ-31">
+          <mxGeometry y="30" width="256" height="247" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
