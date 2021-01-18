@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T06:52:28.205Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="QtOo661NCXgYRBWJtiI7" version="14.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-18T08:42:45.548Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="cIB8TbiLLIv-9A0m7p7k" version="14.2.3" type="github">
   <diagram id="lgzlqI-voI4_R8MwFVPB" name="第 1 页">
-    <mxGraphModel dx="9400" dy="6673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1452" dy="1246" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,7 +283,7 @@
         <mxCell id="7n1DrrOMCE1znCpxy1yU-129" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="7n1DrrOMCE1znCpxy1yU-128" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7n1DrrOMCE1znCpxy1yU-130" value="audit_status                      质检状态" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="7n1DrrOMCE1znCpxy1yU-128" vertex="1">
+        <mxCell id="7n1DrrOMCE1znCpxy1yU-130" value="audit_result                      质检结果" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="7n1DrrOMCE1znCpxy1yU-128" vertex="1">
           <mxGeometry x="30" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7n1DrrOMCE1znCpxy1yU-131" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7n1DrrOMCE1znCpxy1yU-109" vertex="1">
